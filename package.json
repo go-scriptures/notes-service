@@ -1,0 +1,21 @@
+{
+  "name": "notes-service",
+  "version": "1.0.0",
+  "description": "Back-end REST service for notes shared among small teams",
+  "type": "module",
+  "main": "app.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/go-scriptures/notes-service.git"
+  },
+  "dependencies": {
+    "express": "5.1.0"
+  }
+}
